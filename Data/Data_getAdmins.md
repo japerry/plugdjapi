@@ -1,8 +1,8 @@
-Action: chatLog
+Data: getAdmins
 ====
 
 ```
-API.chatLog(message)
+API.getAdmins()
 ```
 
-Show a message only in the logged in user's chat.
+Returns an Array of user objects of the Admins currently in the community.
